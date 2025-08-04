@@ -27,18 +27,19 @@ section#iphone{
     width: 311px;
 }
 
-iframe#tela{
-    position: relative;
-    height: 477px;
-    width: 269px;
-}
-
 iframe{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /** SEMPRE que eu quiser deixar no meio usando o POSITION, usar 50% 50% e -50% -50%! */
 }
+
+iframe#tela{
+    position: relative;
+    height: 477px;
+    width: 269px;
+}
+
 
 section#redes-sociais{
     display: grid;
